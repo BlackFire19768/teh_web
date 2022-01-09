@@ -1,0 +1,115 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-image: url(unnamed.jpg);
+}
+
+#page{
+    background-color: #E2E2E2;
+    width: 1100px;
+    height: 1000px;
+    margin: 0px auto 20px auto;
+}
+
+/*Header*/
+
+#header{
+      text-align: center;
+  }
+
+.Minunatele{
+    color: #036;
+    font-size: xx-large;
+    text-align: right;
+    
+}
+
+.portocale{
+    color: #F36207;
+    font-size: xx-large;
+    text-align: right;
+    
+}
+
+.nav {
+    color: #ffffff;
+    list-style-type: none;
+    text-align: left;
+    background-color: #F36207;
+    margin-left: 0cm;
+    
+  }
+  
+  .nav a {
+    display: inline-block;
+    padding: 5px;
+    border: #ffffff;
+    border-width: 1px;
+    border-color: #ffffff;
+  }
+
+  .Acasa{
+      background-color: #0B0B61;
+      border-color: #ffffff;
+  }
+  
+  a:hover{
+      background-color: #0B0B61;
+      cursor: pointer;
+  }
+
+ 
+
+.titlu{
+    float: right;
+    padding-top: 70px;
+    padding-right: 30px;
+}
+
+.porto{
+    padding-top: 10px;
+}
+
+/*Continut*/
+
+
+
+.paragraf_stanga{
+    padding: 0px 0px 0px 0px;
+}
+
+.Titlu{
+    float: center;
+    font-size: large;
+    padding-left: 5px;
+}
+
+.paragraf_centru{
+    width: 350px;
+    float: center;
+
+}
+
+.Navigare{
+    color: #ffffff;
+    list-style-type: none;
+    text-align: left;
+    background-color: #F36207;
+    margin-left: 0cm;
+    float: left;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 5px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.Navigare:hover{
+    background-color: #0B0B61;
+    cursor: pointer;
+}
+
+#articol{
+    background-color: #ffffff;
+    margin-left: 350px;
+}

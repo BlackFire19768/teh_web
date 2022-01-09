@@ -1,0 +1,130 @@
+body {
+    background-image: url("dark-wood.jpg");
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+}
+
+#page {
+   width: 940px;
+   color: #666666;
+   font-family: Georgia, Times, serif;
+   
+   margin: 20px auto 20px auto;
+   /* border: 2px solid #00000; */
+   background-color: #ffffff;
+   
+}
+
+/************************************  Header ************************************/
+    /*+*/  
+    #header {
+		height: 160px;
+		background-image: url("logo.jpg");
+    }
+
+     
+    #nav {
+      height: 30px;
+      background-color: #aeaca8;
+    }
+    
+    #nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+     
+    #nav ul li a:hover,  #nav ul li a.current {
+        color: #000000;
+    }
+    
+    
+    /* + */
+    #nav ul {
+		margin: 0px;
+		padding: 5px 0px 5px 30px;
+	}
+		
+	#nav li {
+		display: inline;
+		margin-right: 40px;
+	}
+    
+    
+    /************************* Article ***********************************/
+    .courses {
+        width: 659px;
+        float: left;
+        border-right: 1px solid #eeeeee;
+    }
+
+    
+    figure {
+        width: 290px;
+        padding: 5px;
+        border: 1px solid #eeeeee;
+        margin: 20px;
+        
+        float: left;
+    } 
+    
+    .description {
+        width: 317px;
+        float: left;
+    }
+    
+    /* + de la main courses*/
+    h1, h2, h3 {
+		font-weight: normal;
+	}
+			
+    h2 {
+        margin: 20px 0px 5px 0px;
+    }
+    
+    h3 {
+        margin: 0px 0px 10px 0px;
+        color: #de6581;
+    }
+    
+    
+       
+    
+      /************************* Footer ***********************************/
+      
+    .sidebar {
+       width: 230px;
+	   float:left;
+	   padding: 0px 0px 0px 20px;
+    }
+    
+    .sidebar a {
+        color: rgb(222, 101, 129);
+        display: block;
+    }
+    
+    .sidebar a:hover {
+        color: #985d6a;
+        background-color: #efefef;
+    }
+    
+    .sidebar h3 {
+        padding: 30px 0px 10px 0px;
+        color: #de6581;
+    }
+    
+    .sidebar .recipies a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    /************************* Footer ***********************************/
+    #footer {
+        height: 30px;
+        background-color: #aeaca8;
+        color: #ffffff;
+        clear: left;
+        
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+    }

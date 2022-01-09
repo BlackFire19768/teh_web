@@ -1,0 +1,45 @@
+img {
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.nav {
+  color: black;
+  list-style-type: none;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: rgb(0, 0, 0);
+  border-top-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(3, 3, 3);
+  border-bottom-width: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1px; 
+  width: 570px;
+  padding: 1px;
+  
+}
+
+.nav li {
+  display: inline-block;
+  text-decoration: overline, underline;
+  padding: 20px;
+}
+
+body {outline-style: double;}
+
+p {
+  text-align: center;
+}
+
+nav:hover {
+  background-color: #ffff;
+  color: red;
+}

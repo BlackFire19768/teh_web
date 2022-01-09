@@ -1,0 +1,52 @@
+* {
+    background: #e7e3d8;
+    
+}
+.Page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+    width: 400px;
+}
+.paragraph {
+    font-family: Georgia;
+    position: relative;
+    text-align: center;
+    top: 0px; 
+    width: 470px;
+    color: #665544;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+div{
+    padding-top: 30px;
+}
+
+img{
+    border: 5px solid #d6d6d6 ;
+}
+figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }

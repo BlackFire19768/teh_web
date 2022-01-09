@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.jpg");
+}
+#divulmare{
+    background-color: lightgray;
+    margin: auto;
+    width: 1230px;
+    height: 1350px;
+}
+#imgportocale{
+    float: left;
+   width: 800px;
+   padding: 0px;
+}
+#punu{
+    margin: auto;
+    display: block ;
+    width: 165px;
+    float: left;
+    height: 130px;
+    padding-top: 100px;  
+    color:blue;
+    font-size: 30px;
+}
+#pdoi{
+    margin: auto;
+    display: block ;
+    width: 215px;
+    float: left;
+    height: 130px;
+    padding-top: 100px;  
+    padding-left: 0px;
+    color:#F36207;
+    font-size: 30px;
+
+}
+#nav li{
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.lisunu{
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+    background-color: #F36207;
+    color: white;
+    text-decoration: none;
+}
+.lisunud{
+    
+    padding: 10px;
+    display: inline-block;
+    background-color: #F36207;
+    padding-right:  630px ;
+    text-emphasis-color: white;
+    width: fit-content;
+}
+#listaunuda{
+    text-decoration:none;
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+    border-color: white;
+    background-color: #0B0B61;
+    padding-left: 10px;
+    
+}
+#listaunuda a:hover{
+    color: white;
+}
+#cunu{
+    width: 390px;
+    float: left;
+    padding: 10px;
+}
+#cdoi{
+    width: 390px;
+    float: left;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+#ctrei{
+    width: 390px;
+    float: left;
+    padding: 10px;
+}
+#ultimuldiv{
+    width: 1230px;
+    float: left;
+    background-color: #F36207;
+    margin: auto;
+    margin-top: 10px;
+}
+.listadoi li{
+    background-color: #F36207;
+    display: block;
+    padding: 2px;
+    margin: 4px;
+    color: white;
+}
+#navigare{
+    padding: 15px;
+    color: blue;
+    font-size: 35px;
+}
+#ultimalista{
+    padding: 15px;
+    list-style-type:circle ;
+}
+
+#ultimalista a{
+    color: #F36207;
+}
+#pdinultimuldiv{
+    padding: 10px;
+    font-size: 35px;
+    color: blue;
+}
+.paragraf{
+    padding: 15px;
+    font-size: 30px;
+}
+#pdivunu{
+    padding: 20px;
+}
+#ultimalista li{
+    display: inline-block
+}
+.paragraf{
+    padding: 15px;
+    color: blue;
+}

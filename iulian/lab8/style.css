@@ -1,0 +1,32 @@
+* {
+    background: #e7e3d8;
+    
+}
+.Page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px; 
+    width: 400px;
+}
+.paragraph {
+    font-family: Georgia;
+    position: relative;
+    text-align: center;
+    top: 0px; 
+    width: 470px;
+    color: #665544;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
